@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "forge test -vvv",
+			"problemMatcher": [],
+			"label": "mock-gmx-staking: forge test",
+			"detail": "Run forge test command for mock-gmx-staking project"
+		},
+		{
+			"type": "shell",
+			"command": "forge test -vvv --mt \"_only\"",
+			"problemMatcher": [],
+			"label": "mock-gmx-staking: forge test 'only'",
+			"detail": "Run forge test command for mock-gmx-staking with \"_only\" suffix"
+		}
+	]
+}
